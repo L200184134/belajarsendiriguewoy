@@ -24,6 +24,12 @@ public class Login extends javax.swing.JFrame {
         password.setText("Password");
         
         window.setSize(350, 300);
+        window.setBounds(10,10,350,300);
+        
+        name.setBounds(10,10,100,25);
+        password.setBounds(10,40,100,25);
+        textField1.setBounds(100,10,50,25);
+        textField2.setBounds(100,40,50,25);
         
         
         window.getComponents();
